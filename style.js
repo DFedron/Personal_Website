@@ -31,7 +31,7 @@
   li3.append(a3);
   ul.append(li3);
 
-  a4.setAttribute('href', 'index.html');
+  a4.setAttribute('href', 'Project.html');
   a4.textContent = "Projects";
   li4.append(a4);
   ul.append(li4);
