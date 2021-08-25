@@ -1,0 +1,50 @@
+
+
+.fieldset1{
+    left: 30%;
+    top:  15%;
+    position: absolute;
+    font-size: xx-large;
+    color: #fff;
+    width:  max-content;
+}
+.h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.dv1 label{
+    padding: 5px;
+    width: 100px;
+    display: inline-block;
+    font-weight: bolder;
+    
+}
+.dv2 legend{
+    font-weight: bolder;
+}
+
+#username, #email, #password{
+    width: 260px;
+}
+
+#btnSub{
+    width: 48%;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+#btnRes{
+    width: 48%;
+    padding: 5px;
+    color: green;
+    background-color: white;
+    border-color: rgb(55, 170, 55);
+    border-radius: 5px;
+}
+#btnSub:hover, #btnRes:hover{
+    background: var(--orange);
+
+}
+

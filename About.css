@@ -2,7 +2,7 @@
     text-align: center;
 } */
 .imgAndText{
-    padding: 120px;
+    padding: 100px;
 }
 .img-huidong{
     /* position: relative;
@@ -12,8 +12,12 @@
     float: right;
 }
 
+.title{
+    width:fit-content;
+    border-bottom: 8px solid rgb(214, 230, 143);
+}
 .content{
-    color: #fff;
+    color: rgb(243, 241, 213);
     font-size: xx-large;
     
 }
