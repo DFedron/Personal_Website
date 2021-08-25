@@ -6,10 +6,43 @@ body{
     height: 100vh; */
     background-attachment: fixed;
    
-    text-align: center;
+    
     margin: 0;
     padding: 0;
 }
-main{
-     top: 40%;
+
+.navbar_top{
+    text-align: center;
+    margin: 0;
+    padding-top: 13px;
+    border-bottom: 5px solid #fff;
+}
+
+.navbar_top ul li{
+    padding-bottom: 5px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-size: 35px;
+    
+}
+
+.navbar_top ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar_top ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #288178;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+}
+.navbar_top ul li:hover::after{
+    width: 100%;
 }

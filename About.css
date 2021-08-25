@@ -1,3 +1,19 @@
-body{
-    background: rgb(238, 205, 163);
+/* body{
+    text-align: center;
+} */
+.imgAndText{
+    padding: 120px;
+}
+.img-huidong{
+    /* position: relative;
+    padding-top: 5%;
+    right: 10%;
+    text-align: end; */
+    float: right;
+}
+
+.content{
+    color: #fff;
+    font-size: xx-large;
+    
 }
