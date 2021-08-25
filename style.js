@@ -26,8 +26,8 @@
   li2.append(a2);
   ul.append(li2);
 
-  a3.setAttribute('href', 'index.html');
-  a3.textContent = "Dedcription";
+  a3.setAttribute('href', 'Previous_work.html');
+  a3.textContent = "Previous Work";
   li3.append(a3);
   ul.append(li3);
 
