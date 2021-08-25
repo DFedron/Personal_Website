@@ -13,11 +13,17 @@
 }
 
 .title{
+    margin: 0;
     width:fit-content;
     border-bottom: 8px solid rgb(214, 230, 143);
 }
 .content{
     color: rgb(243, 241, 213);
     font-size: xx-large;
+    
+}
+
+p{
+    width: fit-content;
     
 }

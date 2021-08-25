@@ -1,4 +1,15 @@
 .resume{
     text-align: center;
-    padding: 40px;
+    padding: 50px;
+    
+}
+
+h1{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 0;
+    padding-bottom: 15px;
+    text-decoration: underline;
+    /* border-bottom: solid #fff 2.5px; */
+    
 }

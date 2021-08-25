@@ -5,22 +5,26 @@ body{
     margin: 50px;
     border: rgb(204, 212, 233) solid 5px;
     padding: 15px;
-    height: 550px;
+    height: fit-content;
+    min-height: 600px;
 }
 
 .Project2{
     margin: 50px;
     border: rgb(204, 212, 233) solid 5px;
     padding: 15px;
-    height: 550px;
+    height: fit-content;
+    min-height: 600px;
 }
 
 .img-project1{
+    position: relative;
     float: left;
     padding: 40px 50px;
 }
 
 .img-project2{
+    position: relative;
     float: left;
     padding-left: 500px;
 }
@@ -49,4 +53,10 @@ h1{
 
 p{
     font-size: 30px;
+}
+
+.frupal{
+    color: rgb(74, 133, 221);
+    /* text-decoration: none; */
+    font-size: 35px;
 }
