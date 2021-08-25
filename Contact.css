@@ -1,12 +1,23 @@
-  
+  h1 {
+     text-align: center;
+  }
+  h4{
+      text-align: center;
+  }
+
+  .form-group{
+    font-size: x-large;
+  }
   form{
+       
+    color: #fff;
     /* left: 30%;
     top:  15%;
     /* position: absolute; */
     /* font-size: xx-large; */
     /* color: #fff; */ 
-    width: 500px;
-    background: rgb(4, 4, 105);
+    width: 70%;
+    
     /* height: 80%; */
   }
   

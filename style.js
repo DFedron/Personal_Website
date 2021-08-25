@@ -1,5 +1,5 @@
 
-  let nav = document.querySelector('#nav');
+  let nav = document.querySelector('#nav1');
   let section = document.createElement('div');
   let ul = document.createElement('ul');
 
@@ -43,4 +43,5 @@
 
   section.append(ul);
   nav.append(section);
+  
   
